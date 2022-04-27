@@ -10,7 +10,7 @@ function App() {
 				<h3>{people.length} birthdays today</h3>
 				<List people={people} />
 				<button onClick={() => setPeople([])}>Clear all</button>
-				<button onClick={() => setPeople([data])}>Show All</button>
+				<button onClick={() => setPeople([people])}>Show All</button>
 			</section>
 		</main>
 	);
